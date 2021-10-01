@@ -37,3 +37,5 @@ class RootBundleAssetLoader extends AssetLoader {
     return json.decode(await rootBundle.loadString(localePath));
   }
 }
+
+final _a = 1;
